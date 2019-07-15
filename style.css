@@ -1,0 +1,34 @@
+h1 {
+  font: 25px, Georgia, serif;
+  align: center;
+}
+
+p {
+  font: 15px, Georgia, serif;
+  align: left;
+}
+
+.topnav {
+    background-color: #E6E6FA;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    background-color:	#E6E6FA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #9370DB;
+    color: white;
+}

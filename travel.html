@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<div class="topnav">
+  <a href="buildAWebsite.html">Home</a>
+  <a href="aboutMe.html">About Me</a>
+  <a class="active" href="travel.html">Travel</a>
+  <a href="resume.html">My Resume</a>
+</div>
+
+<head>
+  <title> Travel </title>
+  <link rel="stylesheet" href="travel-style.css">
+</head>
+
+<h1>Travel</h1>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="paris.jpg" alt="Paris" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NewYork.jpg" alt="NewYork" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NewYork2.jpg" alt="NewYork2" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NY3.jpg" alt="NewYork3" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NY4.jpg" alt="NewYork4" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Florida.jpg" alt="Florida" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Florida2.jpg" alt="Florida2" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Cali.jpg" alt="Cali" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Cali2.jpg" alt="Cali2" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%;length:50%;float:center;">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
