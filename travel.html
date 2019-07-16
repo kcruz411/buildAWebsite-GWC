@@ -14,54 +14,123 @@
   <link rel="stylesheet" href="travel-style.css">
 </head>
 
-<h1>Travel</h1>
+<h1> Travel </h1>
 
 <body>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<body>
 
-<div class="row">
-  <div class="column">
-    <img src="paris.jpg" alt="Paris" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="NewYork.jpg" alt="NewYork" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="NewYork2.jpg" alt="NewYork2" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="NY3.jpg" alt="NewYork3" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="NY4.jpg" alt="NewYork4" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Florida.jpg" alt="Florida" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Florida2.jpg" alt="Florida2" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Cali.jpg" alt="Cali" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Cali2.jpg" alt="Cali2" style="width:100%" onclick="myFunction(this);">
-  </div>
-</div>
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <h3>New York</h3>
+        <img src="NewYork.jpg" alt="NY" style="width:100%">
+      </div>
+    </div>
 
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:50%;length:50%;float:center;">
-  <div id="imgtext"></div>
-</div>
+    <div class="column">
+      <div class="content">
+        <h3>New York</h3>
+        <img src="NewYork2.jpg" alt="NY" style="width:100%">
+      </div>
+    </div>
 
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
+    <div class="column">
+      <div class="content">
+        <h3>New York</h3>
+        <img src="NY3.jpg" alt="NY" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>New York</h3>
+        <img src="NY4.jpg" alt="NY" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>South Carolina</h3>
+        <img src="SC.jpg" alt="SC" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>South Carolina</h3>
+        <img src="SC3.jpg" alt="SC" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>Paris</h3>
+        <img src="paris.jpg" alt="Paris" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>London</h3>
+        <img src="london.jpg" alt="london" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>North Carolina</h3>
+        <img src="NC.jpg" alt="NC" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>North Carolina</h3>
+        <img src="NC2.jpg" alt="NC" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>California</h3>
+        <img src="Cali.jpg" alt="Cali" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>California</h3>
+        <img src="Cali2.jpg" alt="Cali" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>South Carolina</h3>
+        <img src="SC2.jpg" alt="SC" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3>Florida</h3>
+        <img src="Florida2.jpg" alt="Florida" style="width:100%">
+      </div>
+    </div>
+
+      <div class="column">
+        <div class="content">
+          <h3>London</h3>
+          <img src="london2.jpg" alt="london" style="width:100%">
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="content">
+          <h3>California</h3>
+          <img src="cali1.jpg" alt="Cali" style="width:100%">
+        </div>
+      </div>
+
+  </div>
+
+</body>

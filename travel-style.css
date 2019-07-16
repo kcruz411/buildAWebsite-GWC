@@ -1,6 +1,6 @@
-h1{
-  font: 15px, Georgia, serif;
-  align: left;
+h1 {
+    font: 15px, Georgia, Serif;
+    align: left;
 }
 
 .topnav {
@@ -24,63 +24,33 @@ h1{
 }
 
 .topnav a.active {
-    background-color: #9370DB;
-    color: white;
-}
-* {
-  box-sizing: border-box;
+  background-color: #9370DB;
+  color: white;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
+.main {
+  max-width: 1000px;
+  margin: auto;
 }
 
-/* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
-  padding: 10px;
 }
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
+.content {
+  background-color: white;
+  padding: 5px;
 }
 
-.column img:hover {
-  opacity: 1;
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
