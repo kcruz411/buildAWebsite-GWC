@@ -1,6 +1,11 @@
 h1 {
-    font: 15px, Georgia, Serif;
-    align: left;
+  font: 25px, Georgia, serif;
+  align: center;
+}
+
+h3 {
+  font: 15px, Georgia, serif;
+  align: center;
 }
 
 .topnav {
@@ -24,8 +29,8 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: #9370DB;
-  color: white;
+    background-color: #9370DB;
+    color: white;
 }
 
 
@@ -73,31 +78,4 @@ h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-.content {
-  background-color: white;
-  padding: 5px;
-}
-
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }
