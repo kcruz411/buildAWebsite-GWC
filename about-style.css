@@ -3,6 +3,9 @@ h1 {
   align: center;
 }
 
+img{
+  padding: 25px;
+}
 .topnav {
     background-color: #E6E6FA;
     overflow: hidden;
